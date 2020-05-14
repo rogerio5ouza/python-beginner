@@ -1,5 +1,7 @@
 # Python Beginner
 
+![Python Logo](https://www.python.org/static/community_logos/python-logo-generic.svg)
+
 **Indice**
 
 * [Sintax](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-1)
