@@ -1,4 +1,9 @@
-# python-beginner
+# Python Beginner
 
-Introdução à Ciência da Computação com Python Parte 1
-# Oferecido por: Universidade de São Paulo - USP (através da plataforma de ensino EAD Coursera)
+**Indice**
+
+* [Sintax](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-1)
+* Comments
+* Variables
+
+_Fonte:_ [python.org/doc](www.python.org/doc/) e [w3schools.com/python](www.w3schools.com/python)
