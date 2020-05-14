@@ -6,4 +6,4 @@
 * Comments
 * Variables
 
-_Fonte:_ [python.org/doc](www.python.org/doc/) e [w3schools.com/python](www.w3schools.com/python)
+_Fonte:_ [python.org/doc](https://www.python.org/doc/) e [w3schools.com/python](https://www.w3schools.com/python/)
