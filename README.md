@@ -10,5 +10,6 @@
 * [Variables](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-1)
 * [Data Types](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-1)
 * [Numbers](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-1)
+* [Casting](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-1)
 
 _Fonte:_ [python.org](https://docs.python.org/3/tutorial/index.html) e [w3schools.com](https://www.w3schools.com/python/)
