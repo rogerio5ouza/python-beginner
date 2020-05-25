@@ -75,3 +75,13 @@ Podemos usar índices negativos para iniciar o slice do final de uma String.
 
 b = 'Hello, Wolrd!'
 print(b[-5:-2])
+
+'''
+String Length (Comprimento da String)
+
+Para obter o comprimento de uma string, usamos a função len().
+'''
+# A função len() retorna o comprimento de uma String ():
+
+a = 'Hello, World!'
+print(len(a))
