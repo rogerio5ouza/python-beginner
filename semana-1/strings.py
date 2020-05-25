@@ -8,10 +8,10 @@ Strtings literais em Python são declaradas entre aspas simples ou duplas.
 Você pode exibir uma String literal com a função print().
 '''
 
-# Exemplo: 
+# Exemplo:
 
-print ('Hello')  
-print ("Hello")
+print('Hello')
+print("Hello")
 
 ''' 
 Atribuição de String a uma Variável
@@ -20,7 +20,7 @@ Atribuir uma String a uma Variável é feita com o nome da Variável seguida por
 '''
 
 a = "Hello"
-print(a) 
+print(a)
 
 '''
 Strings de Multilinhas
@@ -34,7 +34,7 @@ consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 
-print (a)
+print(a)
 
 '''
 Strings são Arrays
@@ -50,7 +50,7 @@ Parênteses retos podem ser usados para acessar elementos da sequência.
 # Coloque o caracter na posição 1 (lembre-se de que o primeiro caracter tem a posição 0):
 
 a = 'Hello, World!'
-print (a[1])
+print(a[1])
 
 '''
 Slicing (Fatiamento)
@@ -64,5 +64,14 @@ Especifique o índice inicial e o final, separados por dois pontos, para retorna
 # Coloque os caracteres da posição 2 para a posição 5 (não incluídos):
 
 b = "Hello, World!"
-print (b[2:5])
+print(b[2:5])
 
+'''
+Negative Indexing (Indexação Negativa)
+
+Podemos usar índices negativos para iniciar o slice do final de uma String.
+'''
+# Exemplo:
+
+b = 'Hello, Wolrd!'
+print(b[-5:-2])
