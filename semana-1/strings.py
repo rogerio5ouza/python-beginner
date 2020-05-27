@@ -85,3 +85,34 @@ Para obter o comprimento de uma string, usamos a função len().
 
 a = 'Hello, World!'
 print(len(a))
+
+'''
+Métodos de String
+
+O Python possui um conjunto de métodos internos que você pode usar em Strings.
+'''
+
+# O método strip() remove qualquer espaço do início ou do final da string:
+
+a = ' Hello, Wolrd! '
+print(a.strip())    # retorna 'Hello, World!'
+
+# O método lower() retorna a string em letras minúsculas:
+
+a = 'Hello, World!'
+print(a.lower())
+
+# O método upper() retorna a string em letras maiúsculas:
+
+a = 'Hello, World!'
+print(a.upper())
+
+# O método replace() substitui uma string por outra string:
+
+a = 'Hello, World!'
+print(a.replace('H', 'J'))
+
+# O método split() divide a sequência em substrings se encontrar instâncias do separador:
+
+a = 'Hello, World!'
+print(a.split(','))  # retorna ['Hello', 'World!']
