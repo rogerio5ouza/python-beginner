@@ -116,3 +116,22 @@ print(a.replace('H', 'J'))
 
 a = 'Hello, World!'
 print(a.split(','))  # retorna ['Hello', 'World!']
+
+'''
+Check String (Verificar String)
+
+Para verificar se uma determinada frase ou caracter está presente em uma string, podemos usar
+as palavras-chvave in ou not in.
+'''
+
+# Exemplo - Check se a frase 'ain' está presente no seguinte texto:
+
+txt = 'The rain in Spain stays mainly in the plain.'
+x = 'ain' in txt
+print(x)
+
+# Exemplo - Check se na frase 'ain' NÃO está presente no seguinte texto:
+
+txt = 'The rain in Spain stays mainly in the plain.'
+x = 'ain' not in txt
+print(x)
