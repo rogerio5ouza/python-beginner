@@ -135,3 +135,16 @@ print(x)
 txt = 'The rain in Spain stays mainly in the plain.'
 x = 'ain' not in txt
 print(x)
+
+'''
+String Concatenation (Concatenação de strings)
+
+Para concatenar ou combinar duas sequências, podemos usar o operador +.
+'''
+# Exemplo:
+# Mesclar a variável A com a variável B dentro da variável C:
+
+a = 'Hello '
+b = 'World'
+c = a + b
+print(c)
