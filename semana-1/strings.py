@@ -148,3 +148,44 @@ a = 'Hello '
 b = 'World'
 c = a + b
 print(c)
+
+'''
+String Format (Formato de cadeia)
+
+Não podemos combinar (concatenar) uma sequência do tipo String com um Integer, isso resultará em TypeError.
+'''
+
+# Exemplo:
+
+age = 36
+txt = 'My name is John, I am ' + age
+print(txt)
+
+'''
+Mas podemos combinar Strings com Números usando o método format().
+
+O método format() pega os argumentos passados, formata-os e coloca-os na String 
+em que os espaços reservados {} estão.
+'''
+# Exemplo:
+# Use o método format() para inserir Números dentro de Strings:
+
+age = 36
+txt = 'My name is John, and I am {}'
+print(txt.format(age))
+
+# O método format() recebe um número ilimitado de argumentos que são colocados nos respectivos espaços reservados:
+
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = 'I want {} pieces of item {} for {} dollars.'
+print(myorder.format(quantity, itemno, price))
+
+# Podemos usar números de índice {0} para garantir que os argumentos sejam colocados nos espaços reservados corretamente:
+
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = 'I want to pay {2} dollars for {0} pieces of item {1}.'
+print(myorder.format(quantity, itemno, price))
