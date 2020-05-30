@@ -189,3 +189,21 @@ itemno = 567
 price = 49.95
 myorder = 'I want to pay {2} dollars for {0} pieces of item {1}.'
 print(myorder.format(quantity, itemno, price))
+
+'''
+Escape Character (Caracteres de Escape)
+
+Para inserir caracteres que são ilegais em uma string, usamos Caracteres de Escape.
+Um Caractere de Escape é uma barra invertida \ seguida pelo caractere que você deseja inserir.
+Um exemplo de Caractere ilegal é uma aspas duplas dentro de uma string que é cercada por aspas duplas.
+'''
+# Você receberá um erro se usar aspas duplas dentro de uma string cercada por aspas duplas:
+
+txt = "We are the so-called "Vikings" from the north."
+print(txt)
+
+# Para corrigir esse problema, usamos o caractere de escape \".
+# O caracter de escape permite que você use aspas duplas quando normalmente não seria permitido:
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
