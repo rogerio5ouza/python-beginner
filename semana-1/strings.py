@@ -199,11 +199,45 @@ Um exemplo de Caractere ilegal é uma aspas duplas dentro de uma string que é c
 '''
 # Você receberá um erro se usar aspas duplas dentro de uma string cercada por aspas duplas:
 
-txt = "We are the so-called "Vikings" from the north."
+# txt = "We are the so-called "Vikings" from the north."
 print(txt)
 
 # Para corrigir esse problema, usamos o caractere de escape \".
 # O caracter de escape permite que você use aspas duplas quando normalmente não seria permitido:
 
 txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
+# Outros caracteres de escape usados em Python:
+
+# \' -> Single Quote (Aspas simples)
+txt = 'It\'s alright.'
+print(txt)
+
+# \\ -> Backslash (Barra invertida)
+txt = 'This will insert one \\ (backslash).'
+print(txt)
+
+# \n -> New Line (Nova linha)
+txt = 'Hello\nWorld!'
+print(txt)
+
+# \r -> Carriage Return
+txt = 'Hello\rWorld!'
+print(txt)
+
+# \t -> Tab (Tabulação/Espaço)
+txt = 'Hello\tWorld!'
+print(txt)
+
+# \b -> Backspace (Retrocesso)
+txt = 'Hello \bWorld!'
+print(txt)
+
+# \ooo -> Octal value (Valor octal)
+txt = '\110\145\154\157'
+print(txt)
+
+# \xhh -> Hex value (Valor hexadecimal)
+txt = '\x48\x65\x6c\x6c\x6f'
 print(txt)
