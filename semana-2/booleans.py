@@ -45,3 +45,16 @@ y = 15
 
 print(bool(x))
 print(bool(y))
+
+'''
+A maioria dos valores é True
+
+Quase todo valor é avaliado como True se tiver algum tipo de conteúdo.
+Qualquer cadeia é True, exceto cadeias vazias.
+Qualquer número é True, exceto 0.
+Qualquer lista, tupla, conjunto e dicionário são True, exceto os vazios.
+'''
+# Exemplo:
+bool('abc')
+bool(123)
+bool(['apple', 'cherry', 'banana'])
