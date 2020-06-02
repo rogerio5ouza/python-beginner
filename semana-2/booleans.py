@@ -58,3 +58,68 @@ Qualquer lista, tupla, conjunto e dicionário são True, exceto os vazios.
 bool('abc')
 bool(123)
 bool(['apple', 'cherry', 'banana'])
+
+'''
+Alguns valores são falsos
+
+De fato, não há muitos valores avaliados como Falso, exceto valores vazios, como (), [], {}, "", o número 0 e o valor Nenhum.
+E claro, o valor Flase avalia como False.
+'''
+# Exemplo:
+
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+
+'''
+Mais um valor, ou objeto, nesse caso, é avaliado como False, ou seja, se você tiver um objeto que é feito de uma classe com 
+uma função __len__ que retorna 0 ou False.
+'''
+# Exemplo:
+
+
+class myclass():
+    def __len__(self):
+        return 0
+
+
+myobj = myclass()
+print(bool(myobj))
+
+# Funções podem retornar um valor Booleano
+# Você pode criar funções que retornem um valor Booleano
+# Exemplo:
+
+
+def myFunction():
+    return True
+
+
+print(myFunction())
+
+# Você pode executar o código com base na resposta Booleana de uma fumção.
+# Exemplo: (Imprima 'YES!' se a função retornar True, ou então imprima 'NO!'):
+
+
+def myFunction():
+    return True
+
+
+if myFunction():
+    print('YES!')
+else:
+    print('NO!')
+
+'''
+O Python também possui muitas funções internas que retornam um valor Booleano, como a função isintance(),
+que pode ser usada para determinar se um objeto é de um determinado tipo de dados:
+'''
+# Exemplo
+# Verifica se um objeto é um número inteiro ou não:
+
+x = 200
+print(isinstance(x, int))
