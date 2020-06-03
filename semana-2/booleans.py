@@ -95,8 +95,8 @@ print(bool(myobj))
 # Exemplo:
 
 
-def myFunction():
-    return True
+# def myFunction():
+# return True
 
 
 print(myFunction())

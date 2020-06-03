@@ -194,7 +194,7 @@ print(myorder.format(quantity, itemno, price))
 Escape Character (Caracteres de Escape)
 
 Para inserir caracteres que são ilegais em uma string, usamos Caracteres de Escape.
-Um Caractere de Escape é uma barra invertida \ seguida pelo caractere que você deseja inserir.
+Um Caractere de Escape é uma barra invertida '\' seguida pelo caractere que você deseja inserir.
 Um exemplo de Caractere ilegal é uma aspas duplas dentro de uma string que é cercada por aspas duplas.
 '''
 # Você receberá um erro se usar aspas duplas dentro de uma string cercada por aspas duplas:
