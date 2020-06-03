@@ -12,5 +12,6 @@
 * [Casting](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-1)
 * [Strings](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-1)
 * [Booleans](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
+* [Oerators](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
 
 _Fonte:_ [python.org](https://docs.python.org/3/tutorial/index.html) e [w3schools.com](https://www.w3schools.com/python/)
