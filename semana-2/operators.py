@@ -14,7 +14,7 @@ Python divide os Operadores nos seguintes grupos:
 # Bitwise operators    (Operadores bit a bit)
 
 '''
-Arithmetic operators 
+Arithmetic operators (Operadores aritméticos)
 
 São usados com valores numéricos para executar operações matemáticas comuns.
 '''
@@ -52,3 +52,98 @@ print(x ** y)  # igual a 2*2*2*2*2
 x = 15
 y = 2
 print(x // y)  # a divisão // arredonda o resultado para o número inteiro mais próximo
+
+'''
+Assignment operators (Operadores de atribuição)
+
+São usados para atribuir valores a variáveis.
+'''
+
+# Operador (=) igual a (x = 5)
+
+x = 5
+print(x)
+
+# Operador (+=) igual a (x = x + 3)
+
+x = 5
+x += 3
+
+print(x)
+
+# Operador (-=) igual a (x = x - 3)
+
+x = 5
+x -= 3
+
+print(x)
+
+# Operador (*=) igual a (x = x * 3)
+
+x = 5
+x *= 3
+
+print(x)
+
+# Operador (/=) igual a (x = x / 3)
+
+x = 5
+x /= 3
+
+print(x)
+
+# Operador (%=) igual a (x = x % 3)
+
+x = 5
+x %= 3
+
+print(x)
+
+# Operador (//=) igual a (x = x // 3)
+
+x = 5
+x //= 3
+
+print(x)
+
+# Operador (**=) igual a (x = x ** 3)
+
+x = 5
+x **= 3
+
+print(x)
+
+# Operador (&=) igual a (x = x & 3)
+
+x = 5
+x &= 3
+
+print(x)
+
+# Operador (|=) igual a (x = x | 3)
+
+x = 5
+x |= 3
+
+print(x)
+
+# Operador (^=) igual a (x = x ^ 3)
+
+x = 5
+x ^= 3
+
+print(x)
+
+# Operador (>>=) igual a (x = x >> 3)
+
+x = 5
+x >>= 3
+
+print(x)
+
+# Operador (<<=) igual a (x = x << 3)
+
+x = 5
+x <<= 3
+
+print(x)
