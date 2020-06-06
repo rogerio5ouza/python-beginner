@@ -147,3 +147,45 @@ x = 5
 x <<= 3
 
 print(x)
+
+'''
+Operadores de comparação
+São usados para comparar dois valores.
+'''
+
+# Exemplo:
+# Operador Igual (==)
+x = 5
+y = 3
+
+print(x == y)
+
+# Operador Não igual (!=)
+x = 5
+y = 3
+
+print(x != y)
+
+# Operador Maior que (>)
+x = 5
+y = 3
+
+print(x > y)
+
+# Operador Menor que (<)
+x = 5
+y = 3
+
+print(x < y)
+
+# Operador Maior do que ou Igual a (>=)
+x = 5
+y = 3
+
+print(x >= y)
+
+# Operador Menor do que ou Igual a (<=)
+x = 2
+y = 3
+
+print(x <= y)
