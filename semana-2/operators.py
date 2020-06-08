@@ -189,3 +189,24 @@ x = 2
 y = 3
 
 print(x <= y)
+
+'''
+Operadores Lógicos
+
+São usados para combinar declarações condicionais.
+'''
+
+# Operador AND (retorna True se ambas declarações forem verdadeiras).
+x = 5
+
+print(x > 3 and x < 10)
+
+# Operador OR (retorna True se uma das declarações for verdadeira).
+x = 5
+
+print(x > 3 or x < 4)
+
+# Operador NOT (reverte o resultado, retorna False se o resultado for verdadeiro).
+x = 5
+
+print(not(x > 3 and 5 < 10))
