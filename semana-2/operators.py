@@ -210,3 +210,29 @@ print(x > 3 or x < 4)
 x = 5
 
 print(not(x > 3 and 5 < 10))
+
+'''
+OPERADORES DE IDENTIDADE
+
+Os operadores de Identidade são usados para comparar os objetos, não se forem iguais,
+mas se forem realmente o mesmo objeto, com o mesmo local na memória.
+'''
+# Operador IS (retorna True se ambas variáveis forem um objeto):
+
+x = ['apple', 'banana']
+y = ['apple', 'banana']
+z = x
+
+print(x is z)
+
+# retorna True porque Z é o mesmo objeto que X
+
+print(x is y)
+
+# retorna False poque X não é o mesmo objeto que Y, mesmo se eles tiverem o mesmo conteúdo.
+
+print(x == y)
+
+# para demonstrar a diferença entre "is" e "==": essa comparação retorna True porque x é igual a y.
+
+# Operador IS NOT (retorna True se ambas variáveis não forem o mesmo objeto).
