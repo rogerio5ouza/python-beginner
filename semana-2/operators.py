@@ -269,3 +269,17 @@ print('banana' in x)
 x = ['apple', 'banana']
 
 print('pineapple' not in x)
+
+'''
+OPERADORES BITWISE (Bitwise Operators)
+
+Operadores Bitwise (bit a bit) são usados para comparar números (binários):
+
+- Operador & = AND (define cada bit como 1 se ambos bits forem 1)
+- Operador | = OR (define cada bit como 1 se um dos dois bits for 1)
+- Operador ^ = XOR (define cada bit como 1 se somente um dos dois bits for 1)
+- Operador ~ = NOT (invert todos os bits)
+- Operador << = Zero desvio à esquerda (desloca-se para a esquerda pressionando os zeros da direita e deixando os bits à esquerda de fora)
+- Operador >> = Mudança à direita (desloca-se para a direita empurrando cópias do bit mais à esquerda da esquerda e deixa os bits mais à direita de fora)
+
+'''
