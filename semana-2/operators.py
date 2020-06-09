@@ -236,3 +236,50 @@ print(x == y)
 # para demonstrar a diferença entre "is" e "==": essa comparação retorna True porque x é igual a y.
 
 # Operador IS NOT (retorna True se ambas variáveis não forem o mesmo objeto).
+
+x = ['apple', 'banana']
+y = ['apple', 'banana']
+z = x
+
+print(x is not z)
+
+# retorna False porque Z é o mesmo objeto x
+
+print(x is not y)
+
+# retorna True porque X não é o mesmo objeto que Y, mesmo se eles tiverem o mesmoconteúdo.
+
+print(x != y)
+
+# para demonstrar a difernça entre "NOT IS" e "!="...essa comparação retorna False porque X é igual a Y.
+
+'''
+OPERADORES DE ASSOCIAÇÃO (Membership Operators)
+
+Os Operadores de Associação são usados se uma sequência é apresentada em um objeto.
+'''
+# Operador IN (retorna True se a sequência com o valor especificado estiver presente no objeto)
+
+x = ['apple', 'banana']
+
+print('banana' in x)
+
+# Operador NOT IN (retorna True se uma sequência com o valor especificado não estiver presente no objeto)
+
+x = ['apple', 'banana']
+
+print('pineapple' not in x)
+
+'''
+OPERADORES BITWISE (Bitwise Operators)
+
+Operadores Bitwise (bit a bit) são usados para comparar números (binários):
+
+- Operador & = AND (define cada bit como 1 se ambos bits forem 1)
+- Operador | = OR (define cada bit como 1 se um dos dois bits for 1)
+- Operador ^ = XOR (define cada bit como 1 se somente um dos dois bits for 1)
+- Operador ~ = NOT (invert todos os bits)
+- Operador << = Zero desvio à esquerda (desloca-se para a esquerda pressionando os zeros da direita e deixando os bits à esquerda de fora)
+- Operador >> = Mudança à direita (desloca-se para a direita empurrando cópias do bit mais à esquerda da esquerda e deixa os bits mais à direita de fora)
+
+'''
