@@ -236,3 +236,36 @@ print(x == y)
 # para demonstrar a diferença entre "is" e "==": essa comparação retorna True porque x é igual a y.
 
 # Operador IS NOT (retorna True se ambas variáveis não forem o mesmo objeto).
+
+x = ['apple', 'banana']
+y = ['apple', 'banana']
+z = x
+
+print(x is not z)
+
+# retorna False porque Z é o mesmo objeto x
+
+print(x is not y)
+
+# retorna True porque X não é o mesmo objeto que Y, mesmo se eles tiverem o mesmoconteúdo.
+
+print(x != y)
+
+# para demonstrar a difernça entre "NOT IS" e "!="...essa comparação retorna False porque X é igual a Y.
+
+'''
+OPERADORES DE ASSOCIAÇÃO (Membership Operators)
+
+Os Operadores de Associação são usados se uma sequência é apresentada em um objeto.
+'''
+# Operador IN (retorna True se a sequência com o valor especificado estiver presente no objeto)
+
+x = ['apple', 'banana']
+
+print('banana' in x)
+
+# Operador NOT IN (retorna True se uma sequência com o valor especificado não estiver presente no objeto)
+
+x = ['apple', 'banana']
+
+print('pineapple' not in x)
