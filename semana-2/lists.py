@@ -96,3 +96,26 @@ print(thislist)
 thislist = ['apple', 'banana', 'cherry']
 thislist.remove('banana')
 print(thislist)
+
+# O método pop() remove um índice específico (ou o último item se o índice não for especificado):
+
+thislist = ['apple', 'banana', 'cherry']
+thislist.pop()
+print(thislist)
+
+# A palavra chave DEL remove um índice específico:
+
+thislist = ['apple', 'banana', 'cherry']
+del thislist[0]
+print(thislist)
+
+# A palavra chave DEL também pode deletar uma lista completa:
+
+thislist = ['apple', 'banana', 'cherry']
+del thislist
+
+# O método clear() esvazia uma lista:
+
+thislist = ['apple', 'banana', 'cherry']
+thislist.clear()
+print(thislist)
