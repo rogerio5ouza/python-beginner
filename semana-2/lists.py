@@ -76,3 +76,23 @@ if 'apple' in thislist:
 
 thislist = ['apple', 'banana', 'cherry']
 print(len(thislist))
+
+# Adicionar itens (Add Items)
+# Para adicionar um item ao final da lista, usamos o método APPEND():
+
+thislist = ['apple', 'banana', 'cherry']
+thislist.append('orange')
+print(thislist)
+
+# Para adicionar um item ao índice especificado, usamos o método INSERT():
+
+thislist = ['apple', 'banana', 'cherry']
+thislist.insert(1, 'orange')
+print(thislist)
+
+# Remover item (Remove Item)
+# Existem vários métodos para remover itens de uma lista:
+
+thislist = ['apple', 'banana', 'cherry']
+thislist.remove('banana')
+print(thislist)
