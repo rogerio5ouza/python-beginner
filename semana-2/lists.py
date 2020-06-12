@@ -48,3 +48,31 @@ print(thislist[2:])
 thislist = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'melon', 'mango']
 
 print(thislist[-4:-1])
+
+# Intervalo de índices negativos (Range of Negative Indices)
+# Muda o segundo item:
+
+thislist = ['apple', 'banana', 'cherry']
+thislist[1] = 'blackcurrant'
+print(thislist)
+
+# Loop através de uma lista
+# Podemos percorrer os itens de uma lista usando loop for:
+
+thislist = ['apple', 'banana', 'cherry', 'melon']
+for x in thislist:
+    print(x)
+
+
+# Verifica se o item existe (Check if Item Exists)
+# Para determinar se um item específico está presente em uma lista, usamos a palavra-chave IN:
+
+thislist = ['apple', 'banana', 'cherry']
+if 'apple' in thislist:
+    print("Yes, 'apple' is in the list")
+
+# Comprimento da lista (List Length)
+# Para determinar quantos itens uma lista possui, usamosa a função len():
+
+thislist = ['apple', 'banana', 'cherry']
+print(len(thislist))
