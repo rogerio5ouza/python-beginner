@@ -119,3 +119,56 @@ del thislist
 thislist = ['apple', 'banana', 'cherry']
 thislist.clear()
 print(thislist)
+
+'''
+COPIAR UMA LISTA (Copy a List)
+
+Não podemos copiar uma lista simplesmente digitando list2 = list1, porque: list2 será apenas uma referência à list1 e as alterações feitas em list1 
+também serão automaticamente feitas em list2.
+
+Existem maneiras de se fazer uma cópia, e uma maneira é por meio do método de lista embutido copy().
+'''
+# Exemplo:
+
+thislist = ['apple', 'banana', 'cherry']
+mylist = thislist.copy()
+print(mylist)
+
+# Outra maneira de se fazer uma cópia, é usando o método de lista embutido list():
+
+thislist = ['apple', 'banana', 'cherry']
+mylist = list(thislist)
+print(mylist)
+
+'''
+UNINDO DUAS LISTAS (Join Two Lists)
+
+Existem várias maneiras de inserir ou concatenar duas ou mais listas.
+Uma maneira fácil é fazendo uso do operador +.
+'''
+
+# Exemplo:
+
+list1 = ['a', 'b', 'c']
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
+# Outro maneira de unir listas é anexando(appending) todos os itens da list2 na list1, um por um:
+
+list1 = ['a', 'b', 'c']
+list2 = [1, 2, 3]
+
+for x in list2:
+    list1.append(x)
+
+print(list1)
+
+# Ou ainda podemos usar o método extend(), cujo objetivo é adicionar elementos de uma lista para outra lista (o método extend() adiciona a list2 no final da list1):
+
+list1 = ['a', 'b', 'c']
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)
