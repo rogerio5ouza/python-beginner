@@ -172,3 +172,32 @@ list2 = [1, 2, 3]
 
 list1.extend(list2)
 print(list1)
+
+'''
+CONSTRUTOR list() - The list() Constructor
+
+É possível usar o construtor list() para fazer uma nova lista.
+'''
+# Exemplo:
+
+thislist = list(('apple', 'banana', 'cherry'))
+print(thislist)
+
+'''
+LISTA DE MÉTODOS (List Methods)
+
+Python possui um conjunto de métodos nativos que pode ser usado em listas:
+
+- append() -> Adiciona um elemento no final de uma lista.
+- clear()  -> Remove todos os elementos da lista.
+- copy()   -> Retorna uma cópia da lista.
+- count()  -> Retorna o número de elementos com o específico valor.
+- extend() -> Adiciona elementos de uma lista para o final da lista.
+- index()  -> Retorna o índice do primeiro elemento com o valor especificado.
+- insert() -> Adiciona um elemento em uma posição específica da lista.
+- pop()    -> Remove o elemento da posição especificada.
+- remove() -> Remove o item com um valor específico.
+- reverse()-> Reverte a ordem da lista.
+- sort()   -> Ordena a lista.
+
+'''
