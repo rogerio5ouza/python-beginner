@@ -53,3 +53,11 @@ print(x)
 tuplaFrutas = ('ameixa', 'banana', 'caqui')
 for x in tuplaFrutas:
     print(x)
+
+# VERIFICAR SE O ITEM EXISTE
+# Para vereficarmos se um item específico está presente em uma tupla, usamos a palavra chave IN.
+# Exemplo:
+
+tuplaFrutas = ('ameixa', 'banana', 'caqui')
+if 'banana' in tuplaFrutas:
+    print('Success! Banana esta presente em tupla frutas.')
