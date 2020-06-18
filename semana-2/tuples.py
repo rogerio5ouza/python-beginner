@@ -61,3 +61,10 @@ for x in tuplaFrutas:
 tuplaFrutas = ('ameixa', 'banana', 'caqui')
 if 'banana' in tuplaFrutas:
     print('Success! Banana esta presente em tupla frutas.')
+
+# COMPRIMENTO DE UMA TUPLA (Tuple Length)
+# Para verificarmos quantos itens possui uma tupla, usamos o método LEN().
+# Exemplo:
+
+tuplaFrutas = ('ameixa', 'banana', 'caqui')
+print(len(tuplaFrutas))
