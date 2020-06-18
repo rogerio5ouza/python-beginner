@@ -45,3 +45,11 @@ y[1] = 'kiwi'
 x = tuple(y)
 
 print(x)
+
+# LOOP ATRAVÉS DE UMA TUPLA (Loop Through a Tuple)
+# Podemos percorrer os itens de uma tupla usando o for loop.
+# Exemplo:
+
+tuplaFrutas = ('ameixa', 'banana', 'caqui')
+for x in tuplaFrutas:
+    print(x)
