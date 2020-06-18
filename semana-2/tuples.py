@@ -30,3 +30,18 @@ print(tuplaFrutas[2:5])
 tuplaFrutas = ('abacate', 'banana', 'caju', 'melancia',
                'goiaba', 'manga', 'morango')
 print(tuplaFrutas[-4:-1])
+
+'''
+Alterar valores de uma tupla (Change Tuple Values)
+
+Depois que uma tupla é criada, não podemos alterar seus valores. Tuplas são imutáveis imutáveis, como tmabém é chamando.
+
+Mas há uma solução alternativa. Podemos converter uma tupla em lista, alterar a lista e converter a lista novamnete em uma tupla.
+'''
+# Exemplo:
+x = ('abacate', 'pera', 'morango')
+y = list(x)
+y[1] = 'kiwi'
+x = tuple(y)
+
+print(x)
