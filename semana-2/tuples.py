@@ -68,3 +68,13 @@ if 'banana' in tuplaFrutas:
 
 tuplaFrutas = ('ameixa', 'banana', 'caqui')
 print(len(tuplaFrutas))
+
+'''
+ADIÇÃO DE ITENS (Add Items)
+Uma vez que a tupla é criada, não podemos adicionar itens a ela. Tuplas são IMUTÁVEIS.
+'''
+# Exemplo:
+
+tuplaFrutas = ('ameixa', 'banana', 'caqui')
+tuplaFrutas[3] = 'morango'  # Isso vai retornar um TypeError.
+print(tuplaFrutas)
