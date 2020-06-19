@@ -78,3 +78,17 @@ Uma vez que a tupla é criada, não podemos adicionar itens a ela. Tuplas são I
 tuplaFrutas = ('ameixa', 'banana', 'caqui')
 tuplaFrutas[3] = 'morango'  # Isso vai retornar um TypeError.
 print(tuplaFrutas)
+
+'''
+CRIAÇÃO DE UMA TUPLA COM UM ITEM (Create Tuple With One Item)
+Para criar uma tupla com apenas um item, podemos adicionar uma vírgula depois do item, caso contrário, o Python não reconhecerá como uma tupla.
+'''
+# Exemplo:
+
+tuplaFrutas = ('ameixa',)
+print(type(tuplaFrutas))
+
+# Não é uma tupla
+
+tuplaFrutas = ('ameixa')
+print(type(tuplaFrutas))
