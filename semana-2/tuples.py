@@ -105,3 +105,16 @@ tuplaFrutas = ('ameixa', 'banana', 'caqui')
 del tuplaFrutas
 # será mostrado um 'NameError' porque a tupla não existe mais.
 print(tuplaFrutas)
+
+'''
+UNIÃO DE DUAS TUPLAS (Join Two Tuples)
+
+Para unir duas ou mais tuplas usamos o operador +.
+'''
+# Exemplo:
+
+tuplaLetras = ('a', 'b', 'c', 'd', 'e')
+tuplaNumeros = (1, 2, 3)
+
+tuplaUniao = tuplaLetras + tuplaNumeros
+print(tuplaUniao)
