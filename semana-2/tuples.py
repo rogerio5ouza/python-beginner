@@ -92,3 +92,16 @@ print(type(tuplaFrutas))
 
 tuplaFrutas = ('ameixa')
 print(type(tuplaFrutas))
+
+'''
+REMOVER ITENS (Remove Itens)
+
+Tuplas são IMUTÁVEIS, sendo assim, não podemos remover seus itens, mas podemos deletar a tupla completa.
+'''
+# A palavra chave DEL pode deletar a tupla completa.
+# Exemplo:
+
+tuplaFrutas = ('ameixa', 'banana', 'caqui')
+del tuplaFrutas
+# será mostrado um 'NameError' porque a tupla não existe mais.
+print(tuplaFrutas)
