@@ -118,3 +118,14 @@ tuplaNumeros = (1, 2, 3)
 
 tuplaUniao = tuplaLetras + tuplaNumeros
 print(tuplaUniao)
+
+'''
+CONSTRUTOR tuple() 
+
+É possível usar o cosntrutor tuple() para criar uma tupla.
+'''
+# Exemplo:
+
+# atenção para os duplos parênteses
+estaTupla = tuple(('abacate', 'banana', 'caju'))
+print(estaTupla)
