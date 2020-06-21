@@ -129,3 +129,27 @@ CONSTRUTOR tuple()
 # atenção para os duplos parênteses
 estaTupla = tuple(('abacate', 'banana', 'caju'))
 print(estaTupla)
+
+'''
+MÉTODOS TUPLA (Tuple Methods)
+
+Python possui dois métodos que podemos usar em tuplas.
+
+Método count() - Retorna o número de vezez que um específico valor aparece na tupla.
+Método index() - Procura na tupla por um específico valor e retorna a posição de onde ele se encontra.
+'''
+# Exemplo (count()):
+
+estaTupla = (5, 8, 6, 4, 5, 7, 8, 7, 3, 1)
+
+x = estaTupla.count(5) 
+
+print(x)
+
+# Exemplo (index()):
+
+estaTupla = (5, 8, 6, 4, 5, 7, 8, 7, 3, 1)
+
+x = estaTupla.index(3) 
+
+print(x)
