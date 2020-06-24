@@ -30,8 +30,29 @@ for x in set_de_animais_felinos:
 
 # Verifica se 'Guepardo' está presente no conjunto:
 
-set_de_animais_felinos = {
-    'Tigre', 'Leao', 'Lince', 'Onca-pintada', 'Leopardo-das-neves', 'Guepardo'
-}
+set_de_animais_felinos = {'Tigre', 'Leao', 'Lince',
+                          'Onca-pintada', 'Leopardo-das-neves', 'Guepardo'}
 
 print('Guepardo' in set_de_animais_felinos)
+
+'''
+Adição de Itens (Add Items)
+
+Para adicionar um item em um conjunto, usamos o método add().
+Para adicionar mais de um item, usamos o método update().
+'''
+# Exemplo de add():
+
+set_de_animais_felinos = {'Tigre', 'Leao', 'Lince'}
+
+set_de_animais_felinos.add('Guepardo')
+
+print(set_de_animais_felinos)
+
+# Exemplo de update():
+
+set_de_animais_felinos = {'Tigre', 'Leao', 'Lince'}
+
+set_de_animais_felinos.update(['Guepardo', 'Gato', 'Jaguar'])
+
+print(set_de_animais_felinos)
