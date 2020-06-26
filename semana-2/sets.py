@@ -88,3 +88,25 @@ set_frutas = {'abacate', 'banana', 'cereja'}
 set_frutas.discard('abacate')
 
 print(set_frutas)
+
+'''
+Para removermos o últmo item de um conjunto, 
+usamos o método pop() e para limparmos um conjunto o método clear().
+'''
+
+# Uso do pop():
+
+set_frutas = {'abacate', 'banana', 'cereja'}
+
+frutas_restante = set_frutas.pop()
+
+print(frutas_restante)  # Retorna o item removido
+print(set_frutas)  # Conjunto de frutas restantes
+
+# Uso do clear():
+
+set_frutas = {'abacate', 'banana', 'cereja'}
+
+set_frutas.clear()
+
+print(set_frutas)  # Retorna conjunto vazio 'set()'
