@@ -56,3 +56,35 @@ set_de_animais_felinos = {'Tigre', 'Leao', 'Lince'}
 set_de_animais_felinos.update(['Guepardo', 'Gato', 'Jaguar'])
 
 print(set_de_animais_felinos)
+
+'''
+Para sabermos quantos itens um conjunto(Set) possui, 
+usamos o método len().
+'''
+
+# Exemplo:
+
+set_animais = {'gato', 'cachorro', 'elefante'}
+
+print(len(set_animais))
+
+'''
+Para removermos itens de um conjunto, 
+usamos o método remove() ou o método discard().
+'''
+
+# Uso do remove():
+
+set_frutas = {'abacate', 'banana', 'cereja'}
+
+set_frutas.remove('abacate')
+
+print(set_frutas)
+
+# Uso do discard():
+
+set_frutas = {'abacate', 'banana', 'cereja'}
+
+set_frutas.discard('abacate')
+
+print(set_frutas)
