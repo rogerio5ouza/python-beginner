@@ -132,3 +132,14 @@ set_numeros = {1, 2, 3}
 
 set_letras.update(set_numeros)
 print(set_letras)
+
+'''
+Construtor set() (The set() Constructor)
+
+É possível usar o construtor set() para gerar um conjunto.
+'''
+# Exemplo:
+
+set_frutas_with_constructor = set(
+    ('maca', 'banana', 'cereja'))  # uso de duplo parênteses
+print(set_frutas_with_constructor)
