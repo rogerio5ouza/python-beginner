@@ -110,3 +110,25 @@ set_frutas = {'abacate', 'banana', 'cereja'}
 set_frutas.clear()
 
 print(set_frutas)  # Retorna conjunto vazio 'set()'
+
+'''
+União de Conjuntos (Union of Sets)
+Podemos usar o método union(), que retorna um novo conjunto contendo todos os itens dos dois conjuntos, 
+ou o método update() que insere todos os itens de um conjunto em outro.
+'''
+
+# Uso do union():
+
+set_letras = {'a', 'b', 'c'}
+set_numeros = {1, 2, 3}
+
+set_uniao = set_letras.union(set_numeros)
+print(set_uniao)
+
+# Uso do update()
+
+set_letras = {'a', 'b', 'c'}
+set_numeros = {1, 2, 3}
+
+set_letras.update(set_numeros)
+print(set_letras)
