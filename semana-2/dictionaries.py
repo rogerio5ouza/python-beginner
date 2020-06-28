@@ -37,3 +37,49 @@ dicionario_carros = {
 modelo_carro = dicionario_carros.get('marca')
 
 print(modelo_carro)
+
+'''
+Alterar Valores (Change Values)
+
+Podemos alterar um valor de um item específico, referindo-se ao seu nome de chave.
+'''
+# Exemplo:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+dicio_carros['modelo'] = 'Corsa'
+print(dicio_carros)
+
+
+'''
+Loop em um dicionário (Loop Through a Dictionary)
+
+Usamos o loop for para percorrer um dicionário.
+Ao percorrer um dicionário, o valor retornado é a chave do dicionário, mas existem métodos para retornar os valores também.
+'''
+
+# Retornando chaves de um dicionário:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+for x in dicio_carros:
+    print(x)
+
+# Retornando valores de chave de um dicionário:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+for x in dicio_carros:
+    print(dicio_carros[x])
