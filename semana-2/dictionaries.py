@@ -83,3 +83,25 @@ dicio_carros = {
 
 for x in dicio_carros:
     print(dicio_carros[x])
+
+# Uso do método values(), para retornar os valores de um dicionário:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+for x in dicio_carros.values():
+    print(x)
+
+# Uso do método items(), para retornar as chaves e os valores de um dicionário:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+for x, y in dicio_carros.items():
+    print(x, y)
