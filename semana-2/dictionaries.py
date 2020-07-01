@@ -138,3 +138,41 @@ dicio_carros = {
 }
 
 print(len(dicio_carros))
+
+'''
+Adicionando itens (Adding Items)
+
+A adição de um item ao dicionário é feita usando uma nova chave de índice e atribuindo um valor e ela.
+'''
+
+# Exemplo:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+dicio_carros['cor'] = 'grafiti'
+print(dicio_carros)
+
+# O método pop() remove o item de um valor de chave específica
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+dicio_carros.pop('marca')
+print(dicio_carros)
+
+# O método popitem() remove o último item inserido.
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+dicio_carros.popitem()
+print(dicio_carros)
