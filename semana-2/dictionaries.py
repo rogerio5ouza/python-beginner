@@ -105,3 +105,36 @@ dicio_carros = {
 
 for x, y in dicio_carros.items():
     print(x, y)
+
+'''
+Verifica se a chave existe (Check if Key Exists)
+
+Para sabermos se uma chave específica se encontra no dicionário, usamos a keyword in. 
+'''
+# Exemplo:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+if 'ano' in dicio_carros:
+    print("Sim, 'ano' e uma chave do dicionario dicio_carros.")
+
+
+'''
+Comprimento do dicionário (Dictinary Length)
+
+Para sabermos quantos itens (pares de chaves-valores) um dicionario possui, usamos a funcao len().
+'''
+
+# Exemplo:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+print(len(dicio_carros))
