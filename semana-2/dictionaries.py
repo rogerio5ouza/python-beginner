@@ -176,3 +176,25 @@ dicio_carros = {
 
 dicio_carros.popitem()
 print(dicio_carros)
+
+# A palavra-chave del remove o item com o nome da chave especificado.
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+del dicio_carros['marca']
+print(dicio_carros)
+
+# O método clear() esvazia o dicionário
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+dicio_carros.clear()
+print(dicio_carros)
