@@ -198,3 +198,33 @@ dicio_carros = {
 
 dicio_carros.clear()
 print(dicio_carros)
+
+'''
+Copiar um dicionário (Copy a Dictionary)
+
+Não podemos copiar um dicionário simplesmente digitando dicio_carros_1 = dicio_carros_2, porque dicio_carros_2 será apenas uma referência 
+ao dicio_carros_1, e as alterações feitas no dicio_carros_1 também serão feitas do dicio_carros_2.
+
+Existem maneiras de se fazer uma cópia, uma maneira é usar o bult-in copy() do dicionário.
+'''
+# Exemplo:
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2020'
+}
+
+meu_dicionario = dicio_carros.copy()
+print(meu_dicionario)
+
+# Outra maneira de se fazer cópia, é com uso da função bult-in dict():
+
+dicio_carros = {
+    'marca': 'Ford',
+    'modelo': 'Fiesta',
+    'ano': '2021'
+}
+
+meu_dicionario = dict(dicio_carros)
+print(meu_dicionario)
