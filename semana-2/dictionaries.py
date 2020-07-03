@@ -228,3 +228,54 @@ dicio_carros = {
 
 meu_dicionario = dict(dicio_carros)
 print(meu_dicionario)
+
+'''
+Dicionários aninhados (Nested Dictionaries)
+
+Um dicionário também pode conter muitos dicionários.
+'''
+# Exemplo:
+
+meus_cursos_programacao = {
+    'beginner': {
+        'HTML': '5',
+        'horas': 100
+
+    },
+    'intermediate': {
+        'JavaScript': 'ES6',
+        'horas': 200
+    },
+    'advanced': {
+        'Python': '3',
+        'horas': 300
+    }
+}
+
+print(meus_cursos_programacao)
+
+# Podemos ainda, aninhar três dicionários que já existem como dicionários:
+
+beginner = {
+    'HTML': '5',
+    'horas': 100
+
+}
+
+intermediate = {
+    'JavaScript': 'ES6',
+    'horas': 200
+}
+
+advanced = {
+    'Python': '3',
+    'horas': 300
+}
+
+meus_cursos_programacao_2 = {
+    'beginner': beginner,
+    'intermediate': intermediate,
+    'advanced': advanced
+}
+
+print(meus_cursos_programacao_2)
