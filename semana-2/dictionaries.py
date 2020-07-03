@@ -109,7 +109,7 @@ for x, y in dicio_carros.items():
 '''
 Verifica se a chave existe (Check if Key Exists)
 
-Para sabermos se uma chave específica se encontra no dicionário, usamos a keyword in. 
+Para sabermos se uma chave específica se encontra no dicionário, usamos a keyword in.
 '''
 # Exemplo:
 
@@ -202,7 +202,7 @@ print(dicio_carros)
 '''
 Copiar um dicionário (Copy a Dictionary)
 
-Não podemos copiar um dicionário simplesmente digitando dicio_carros_1 = dicio_carros_2, porque dicio_carros_2 será apenas uma referência 
+Não podemos copiar um dicionário simplesmente digitando dicio_carros_1 = dicio_carros_2, porque dicio_carros_2 será apenas uma referência
 ao dicio_carros_1, e as alterações feitas no dicio_carros_1 também serão feitas do dicio_carros_2.
 
 Existem maneiras de se fazer uma cópia, uma maneira é usar o bult-in copy() do dicionário.
@@ -279,3 +279,14 @@ meus_cursos_programacao_2 = {
 }
 
 print(meus_cursos_programacao_2)
+
+'''
+O construtor dict() (The dict() Constructor)
+
+Também é possível usar o construtor dict() para criar um novo dicionário.
+'''
+# Exemplo:
+
+dicio_carros = dict(marca='Ford', modelo='Fusion', year=2020)
+
+print(dicio_carros)
