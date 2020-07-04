@@ -17,5 +17,6 @@
 * [Tuples](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
 * [Sets](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
 * [Dictionaries](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
+* [If...Else](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
 
-_Fontes:_ python.org e w3schools.com
+_Fontes:_ python.org e w3schools.com (com adaptações).
