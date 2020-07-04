@@ -32,3 +32,19 @@ if a > b:
     print('b é maior do que a.')
 elif a == b:
     print('a e b são iguais.')
+
+'''
+Else 
+
+O Else captura qualquer coisa que não seja capturada pelas condições anteriores.
+'''
+# Exemplo:
+
+a = 20
+b = 10
+if b > a:
+    print('b é maior que a.')
+elif a == b:
+    print('a e b são iguais.')
+else:
+    print('a é maior que b.')
