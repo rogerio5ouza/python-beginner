@@ -48,3 +48,21 @@ elif a == b:
     print('a e b são iguais.')
 else:
     print('a é maior que b.')
+
+# Se tivermos apenas uma instrução para executar, podemos colocá-la na mesma linha que o If:
+a = 200
+b = 100
+
+# if a > b: print('a é maior que b.')
+
+# Se tivermos apenas uma instrução para executar, uma para If e outra para Else, podemos também colocá-las na mesma linha:
+
+a = 500
+b = 1000
+print('A') if a > b else print('B')
+
+# Podemos ainda colocar várias instruções Else na mesma linha:
+
+a = 1000
+b = 1000
+print('A') if a > b else print('=') if a == b else print('B')
