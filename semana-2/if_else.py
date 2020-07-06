@@ -92,3 +92,31 @@ b = 55
 c = 300
 if a > b or c > a:
     print('Uma das condições é verdadeira.')
+
+'''
+IF ANINHADO
+
+Podemos ter instruções IF dentro de instruções IF, isso é chamado de intruções IF aninhadas.
+'''
+# Exemplo:
+
+x = 57
+
+if x > 10:
+    print('Maior que 10,')
+    if x > 20:
+        print('e também maior que 20!')
+    else:
+        print('mas não maior que 60.')
+
+'''
+A declaração PASS
+
+Se por algum motivo tivermos uma instrução IF sem conteúdo, inserimos uma instrução PASS para evitar erros.
+'''
+# Exemplo:
+
+a = 30
+b = 100
+if b > a:
+    pass
