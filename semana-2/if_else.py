@@ -66,3 +66,29 @@ print('A') if a > b else print('B')
 a = 1000
 b = 1000
 print('A') if a > b else print('=') if a == b else print('B')
+
+'''
+AND
+
+A palavra-chave AND é um operador lógico usado para comparar instruções condicionais, quando AMBAS condições forem verdadeiras.
+'''
+# Exemplo:
+
+a = 100
+b = 55
+c = 300
+if a > b and c > a:
+    print('Ambas condições são verdadeiras.')
+
+'''
+OR
+
+A palvra-chave OR é um operador lógico usado para comparar instruções condicionais, qundo UMA das condições for verdadeiras.
+'''
+# Exemplo:
+
+a = 100
+b = 55
+c = 300
+if a > b or c > a:
+    print('Uma das condições é verdadeira.')
