@@ -26,3 +26,17 @@ while i <= 10:
     if i == 5:
         break
     i += 1
+
+'''
+The continue Statement (Declaração continue)
+
+Com a instrução continue, podemos parar a interação atual e continuar com a próxima.
+'''
+# Exemplo:
+
+i = 0
+while i < 7:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
