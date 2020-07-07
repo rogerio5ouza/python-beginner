@@ -40,3 +40,17 @@ while i < 7:
     if i == 3:
         continue
     print(i)
+
+'''
+ The else Statement (Declaração else)
+
+ Com a declaração else, podemos executar um bloco de código uma vez, quando a condição não for mais verdadeira.
+'''
+# Imprima a mensagem quando a condição for false:
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+else:
+    print('i não é menor do que 10')
