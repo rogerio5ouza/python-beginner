@@ -46,7 +46,7 @@ while i < 7:
 
  Com a declaração else, podemos executar um bloco de código uma vez, quando a condição não for mais verdadeira.
 '''
-# Imprima a mensagem quando a condição for false:
+# Imprimi a mensagem quando a condição for false:
 
 i = 1
 while i <= 10:
