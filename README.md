@@ -18,5 +18,6 @@
 * [Sets](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
 * [Dictionaries](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
 * [If...Else](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-2)
+* [While Loops](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-3)
 
 _Fontes:_ python.org e w3schools.com (com adaptações).
