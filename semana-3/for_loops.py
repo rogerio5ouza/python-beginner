@@ -79,3 +79,30 @@ for numeros in range(2, 7):
 
 for numeros in range(2, 20, 2):
     print(numeros)
+
+'''
+Else no loop For
+
+O else especifica um bloco de código a ser executado quando o loop for concluído.
+'''
+# Exemplo - imprima todos os números de 0 a 20 e imprima uma mensagem quando o loop terminar:
+
+for x in range(20):
+    print(x)
+else:
+    print('Fim!')
+
+'''
+Loops Aninhados
+
+Um loop aninhado é um loop dentro de outro loop.
+O 'loop interno' será executado uma vez para cada iteração do 'loop externo'.
+'''
+# Exemplo - imprima um adjetivo para cada fruta:
+
+adjetivo = ['vermelho(a)', 'grande', 'saboroso(a)']
+frutas = ['maçã', 'banana', 'cereja']
+
+for x in adjetivo:
+    for y in frutas:
+        print(x, y)
