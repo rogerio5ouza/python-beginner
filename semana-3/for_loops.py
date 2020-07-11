@@ -106,3 +106,13 @@ frutas = ['maçã', 'banana', 'cereja']
 for x in adjetivo:
     for y in frutas:
         print(x, y)
+
+'''
+A Declaração pass
+
+Os loops for não podem estar vazios, mas se, por algum motivo, tivermos um loop sem conteúdo, inserimos a instrução PASS para evitar erros.
+'''
+# Exemplo:
+
+for numeros in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+    pass
