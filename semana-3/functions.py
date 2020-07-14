@@ -30,3 +30,18 @@ def nomeCompleto(nome):
 nomeCompleto('Rogerio')
 nomeCompleto('Carol')
 nomeCompleto('Hermano')
+
+'''
+Numbers of Arguments (Números de argumentos)
+
+Por padrão, uma função deve ser chamada com o número correto de argumentos. Isso significa que, se uma função espera receber 2 argumentos, devemos chamar 
+a função com 2 argumentos, nem mais nem menos.
+'''
+# Exemplo:
+
+
+def nomeCompleto(nome, sobrenome):
+    print(nome + ' ' + sobrenome)
+
+
+nomeCompleto('Hermano', 'Souza')
