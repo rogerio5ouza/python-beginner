@@ -13,3 +13,20 @@ def minha_function():
 
 
 minha_function()
+
+'''
+Arguments (Argumentos)
+
+Uma informação pode ser passada para uma função como argumento.
+Argumentos são definidos depois do nome da função, entre parênteses. Podemos adicionar quantos argumentos quisermos, basta apenas separá-los com uma vírgula.
+'''
+# Exemplo:
+
+
+def nomeCompleto(nome):
+    print(nome + ' Souza')
+
+
+nomeCompleto('Rogerio')
+nomeCompleto('Carol')
+nomeCompleto('Hermano')
