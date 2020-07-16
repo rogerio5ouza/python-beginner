@@ -58,3 +58,16 @@ def func_tipos_transporte(*transporte):
     print('Meu transporte preferido é' + transporte[2])
 
 func_tipos_transporte('Aquatico', 'Aereo', 'Terrestre')
+
+'''
+Keyword Arguments (Argumentos de palavras-chave)
+
+Podemos ainda passar argumentos com a sintaxe: key = valeu.
+Dessa forma a ordem dos arguentos não importa.
+'''
+# Exemplo:
+
+def meusFilhos(filho3, filho2, filho1):
+    print('O caçula é o ' + filho3)
+
+meusFilhos(filho1 = 'José', filho2= 'Tomas', filho3 = 'Torvalds')
