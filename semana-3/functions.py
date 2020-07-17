@@ -54,10 +54,21 @@ Dessa forma, a função receberá uma tupla de argumentos e poderá acessar os i
 '''
 # Exemplo:
 
+
 def func_tipos_transporte(*transporte):
     print('Meu transporte preferido é' + transporte[2])
 
+
 func_tipos_transporte('Aquatico', 'Aereo', 'Terrestre')
+
+# Se o número de argumentos da keyword for desconhecido, adicionamos um duplo ** antes do nome do parâmetro:
+
+
+def func_tipos_transporte_2(**transporte):
+    print('Meu transporte preferido é' + transporte['terrestre'])
+
+
+func_tipos_transporte_2(aquatico='barco', aereo='aviao', terrestre='bicicleta')
 
 '''
 Keyword Arguments (Argumentos de palavras-chave)
@@ -67,7 +78,9 @@ Dessa forma a ordem dos arguentos não importa.
 '''
 # Exemplo:
 
+
 def meusFilhos(filho3, filho2, filho1):
     print('O caçula é o ' + filho3)
 
-meusFilhos(filho1 = 'José', filho2= 'Tomas', filho3 = 'Torvalds')
+
+meusFilhos(filho1='José', filho2='Tomas', filho3='Torvalds')
