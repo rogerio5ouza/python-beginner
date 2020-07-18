@@ -121,3 +121,19 @@ def func_comida(food):
 frutas = ['banana', 'manga', 'laranja']
 
 func_comida(frutas)
+
+'''
+Return Values (Retornar valores)
+
+Para permitir que uma função retorne um valor, usamos o comando return.
+'''
+# Exemplo:
+
+
+def func_multiplica(x):
+    return 10 * x
+
+
+print(func_multiplica(2))
+print(func_multiplica(5))
+print(func_multiplica(10))
