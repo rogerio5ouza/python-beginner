@@ -101,3 +101,23 @@ func_nacionalidade('Dinamarca')
 func_nacionalidade('India')
 func_nacionalidade()
 func_nacionalidade('Grecia')
+
+'''
+Passing a List as an Argument (Passando uma lista como argumento)
+
+Podemos enviar qualquer tipo de argumento de dados para uma função (string, número, lista, dicionário, etc...) que será tratado com o mesmo tipo
+de dados dentro da função.
+
+Podemos enviar uma lista como argumento, que ainda será uma lista quando atingir a função.
+'''
+# Exemplo:
+
+
+def func_comida(food):
+    for x in food:
+        print(x)
+
+
+frutas = ['banana', 'manga', 'laranja']
+
+func_comida(frutas)
