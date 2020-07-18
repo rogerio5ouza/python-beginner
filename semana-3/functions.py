@@ -84,3 +84,20 @@ def meusFilhos(filho3, filho2, filho1):
 
 
 meusFilhos(filho1='José', filho2='Tomas', filho3='Torvalds')
+
+'''
+Default Parameter Value (Valor padrão do parâmetro)
+
+Se chamarmos uma função sem argumento, ela usará um valor padrão.
+'''
+# Exemplo:
+
+
+def func_nacionalidade(pais='Brasil'):
+    print('Eu sou do (a) ' + pais)
+
+
+func_nacionalidade('Dinamarca')
+func_nacionalidade('India')
+func_nacionalidade()
+func_nacionalidade('Grecia')
