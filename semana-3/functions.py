@@ -137,3 +137,15 @@ def func_multiplica(x):
 print(func_multiplica(2))
 print(func_multiplica(5))
 print(func_multiplica(10))
+
+'''
+The pass Statement (A declaração pass)
+
+As definições de uma função não podem estar vazias, mas se, por algum motivo, 
+tivermos uma função sem conteúdo, inserimos a instrução pass para evitar erros.
+'''
+# Exemplos:
+
+
+def minha_func():
+    pass
