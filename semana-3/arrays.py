@@ -43,3 +43,14 @@ Usamos o método len() para rtornar o comprimento de um Array.
 carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
 comprimento_carros = len(carros)
 print(comprimento_carros)
+
+'''
+Loop de elementos em um Array
+
+Podemos usar o loop FOR IN para percorrer todos os elementos de um Array.
+'''
+# Exemplo:
+
+carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
+for elementos in carros:
+    print(elementos)
