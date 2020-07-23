@@ -15,3 +15,20 @@ Arrays são usados para armazenar múltiplos valores em uma variável.
 # Exemplo:
 carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
 print(carros)
+
+'''
+Acessando elementos de Array
+
+Podemos acessar os elementos de uma Array através de seu índice.
+'''
+# Exemplo:
+
+carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
+elemento_carro = carros[1]
+print(elemento_carro)
+
+# Modificando o valor de um item de Array:
+
+carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
+carros[2] = 'Nissan'
+print(carros)
