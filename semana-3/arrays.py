@@ -24,11 +24,22 @@ Podemos acessar os elementos de uma Array através de seu índice.
 # Exemplo:
 
 carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
-elemento_carro = carros[1]
-print(elemento_carro)
+elementos_carros = carros[1]
+print(elementos_carros)
 
 # Modificando o valor de um item de Array:
 
 carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
 carros[2] = 'Nissan'
 print(carros)
+
+'''
+Comprimento de um Array
+
+Usamos o método len() para rtornar o comprimento de um Array.
+'''
+# Exemplo:
+
+carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
+comprimento_carros = len(carros)
+print(comprimento_carros)
