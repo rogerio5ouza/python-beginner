@@ -54,3 +54,14 @@ Podemos usar o loop FOR IN para percorrer todos os elementos de um Array.
 carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
 for elementos in carros:
     print(elementos)
+
+'''
+Adding Array Elements (Adicionando elementos de Array)
+
+Podemos usar o método append() para adicionar elemento em um Array.
+'''
+# Exemplo:
+
+carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
+carros.append('Honda')
+print(carros)
