@@ -65,3 +65,19 @@ Podemos usar o método append() para adicionar elemento em um Array.
 carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
 carros.append('Honda')
 print(carros)
+
+'''
+Removing Array Elements (Removendo Elementos de um Array)
+
+Usamos o método pop() para remover um elemento de uma Array.
+'''
+# Exemplo:
+carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
+carros.pop(0)
+print(carros)
+
+# Podemos ainda usar o método remove() para remover elementos:
+
+carros = ['Fiat', 'Ford', 'Volkswagen', 'Toyota']
+carros.remove('Ford')
+print(carros)
