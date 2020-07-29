@@ -23,5 +23,6 @@
 * [Functions](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-3)
 * [Lambda](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-3)
 * [Arrays](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-3)
+* [Classes/Objects](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-3)
 
 _Fontes:_ python.org e w3schools.com (com adaptações).
