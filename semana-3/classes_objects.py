@@ -40,3 +40,24 @@ p1 = Pessoa('Robert', 32)
 
 print(p1.nome)
 print(p1.idade)
+
+'''
+Object Methods (Métodos de objeto)
+
+Objetos também podem conter métodos. Métodos em objetos são funções que pertencem ao objeto.
+
+'''
+# Exemplo:
+
+
+class Pessoa2:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def minhaFunc(self):
+        print('Olá, meu nome é: ' + self.nome)
+
+
+p1 = Pessoa2('Roger', 32)
+p1.minhaFunc()
