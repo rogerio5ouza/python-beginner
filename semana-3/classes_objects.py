@@ -61,3 +61,25 @@ class Pessoa2:
 
 p1 = Pessoa2('Roger', 32)
 p1.minhaFunc()
+
+'''
+The self Parameter (O Parâmetro self)
+
+O parâmetro self é uma referencia a instância atual da classe e é usado para acessar variáveis que pertencem à classe.
+
+Ele não precisa ser nomeado como self, podemos chamá-lo como quisermos, mas dever ser o primeiro parâmetro de qualquer função da classe.
+'''
+# Exemplo:
+
+
+class Pessoa3:
+    def __init__(meuparametro, nome, idade):
+        meuparametro.nome = nome
+        meuparametro.idade = idade
+
+    def minhaFunc(abc):
+        print('Olá, meu nome é: ' + abc.nome)
+
+
+p1 = Pessoa3('Roger', 32)
+p1.minhaFunc()
