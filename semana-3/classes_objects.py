@@ -86,16 +86,54 @@ p1.minhaFunc()
 
 # Modificando propriedades do objeto:
 
+
 class Pessoa4:
     def __init__(self, nome, idade):
         self.nome = nome
         self.idade = idade
-    
+
     def minhaFunc4(self):
         print('Olá, meu nome é: ' + self.nome)
-        
+
+
 p4 = Pessoa4('Rogerio', 32)
 
 p4.idade = 40
 
 print(p4.idade)
+
+# Deletando propriedades de um objeto com del:
+
+
+class Pessoa5:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def minhaFunc5(self):
+        print('Olá, meu nome é: ' + self.nome)
+
+
+p5 = Pessoa5('Richard', 50)
+
+del p5.idade
+
+print(p5.idade)
+
+# Deletando objetos com del:
+
+
+class Pessoa6:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def minhaFunc6(self):
+        print('Olá, meu nome é: ' + self.nome)
+
+
+p6 = Pessoa6('Richard', 50)
+
+del p6
+
+print(p6)
