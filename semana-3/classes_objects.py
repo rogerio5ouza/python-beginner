@@ -83,3 +83,19 @@ class Pessoa3:
 
 p1 = Pessoa3('Roger', 32)
 p1.minhaFunc()
+
+# Modificando propriedades do objeto:
+
+class Pessoa4:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+    
+    def minhaFunc4(self):
+        print('Olá, meu nome é: ' + self.nome)
+        
+p4 = Pessoa4('Rogerio', 32)
+
+p4.idade = 40
+
+print(p4.idade)
