@@ -55,12 +55,12 @@ class Pessoa2:
         self.nome = nome
         self.idade = idade
 
-    def minhaFunc(self):
+    def minhaFunc2(self):
         print('Olá, meu nome é: ' + self.nome)
 
 
-p1 = Pessoa2('Roger', 32)
-p1.minhaFunc()
+p2 = Pessoa2('Roger', 32)
+p2.minhaFunc2()
 
 '''
 The self Parameter (O Parâmetro self)
@@ -77,12 +77,12 @@ class Pessoa3:
         meuparametro.nome = nome
         meuparametro.idade = idade
 
-    def minhaFunc(abc):
+    def minhaFunc3(abc):
         print('Olá, meu nome é: ' + abc.nome)
 
 
-p1 = Pessoa3('Roger', 32)
-p1.minhaFunc()
+p3 = Pessoa3('Roger', 32)
+p3.minhaFunc3()
 
 # Modificando propriedades do objeto:
 
