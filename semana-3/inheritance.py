@@ -23,3 +23,27 @@ class Pessoa:
 
 p1 = Pessoa('Robert', 'Souza')
 p1.imprimeNome()
+
+'''
+Child Clas (Classe Filha)
+
+Para criarmos uma classe que herda a funcionalidade de outra classe, enviamos a classe Pai como parâmetro ao criar a classe Filha. 
+'''
+# Exemlplo - Criação da classe Estudante que herdará as propriedades e os métodos da classe Pessoa:
+
+
+class Pessoa2:
+    def __init__(self, nome, sobrenome):
+        self.nome = nome
+        self.sobrenome = sobrenome
+
+    def imprimeNomeCompleto(self):
+        print(self.nome, self.sobrenome)
+
+
+class Estudante(Pessoa2):
+    pass
+
+
+e1 = Estudante('Eric', 'Matthes')
+e1.imprimeNomeCompleto()
