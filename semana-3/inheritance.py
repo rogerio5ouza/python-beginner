@@ -27,7 +27,7 @@ p1.imprimeNome()
 '''
 Child Clas (Classe Filha)
 
-Para criarmos uma classe que herda a funcionalidade de outra classe, enviamos a classe Pai como parâmetro ao criar a classe Filha. 
+Para criarmos uma classe que herda a funcionalidade de outra classe, enviamos a classe Pai como parâmetro ao criar a classe Filha.
 '''
 # Exemlplo - Criação da classe Estudante que herdará as propriedades e os métodos da classe Pessoa:
 
@@ -47,3 +47,37 @@ class Estudante(Pessoa2):
 
 e1 = Estudante('Eric', 'Matthes')
 e1.imprimeNomeCompleto()
+
+'''
+Add the __init__() Function
+
+Até o momento, criamos uma classe Filha que herda as propriedades e os métodos de sua classe Pai.
+
+Vamos adicionar a função __init__() à classe Filha(em vez da palavra-chave pass).
+'''
+# OBS: A função __init__() é chamada automaticamente toda vez que a classe está sendo usada para criar um novo Objeto:
+
+
+class Estudante2(Pessoa2):
+    def __init__(self, nome, sobrenome):
+        # add propriedades...
+
+        # Quando Add a função __init__(), a classe Filha não herda mais a função __init__() da classe Pai:
+
+
+class Pessoa3:
+    def __init__(self, nome, sobrenome):
+        self.nome = nome
+        self.sobrenome = sobrenome
+
+    def imprimeNome(self):
+        print(self.nome, self.sobrenome)
+
+
+class Estudante3(Pessoa3):
+    def __init__(self, nome, sobrenome):
+        Pessoa3.__init__(self, nome, sobrenome)
+
+
+p3 = Estudante3('Marijn', 'Haverbeke')
+p3.imprimeNome()
