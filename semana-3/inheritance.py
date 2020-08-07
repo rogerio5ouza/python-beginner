@@ -81,3 +81,28 @@ class Estudante3(Pessoa3):
 
 p3 = Estudante3('Marijn', 'Haverbeke')
 p3.imprimeNome()
+
+'''
+Uso da super() Function
+
+Python também possui uma super() function que faz a classe Filha herdar todos os métodos e propriedades da classe Pai:
+'''
+# Exemplo:
+
+
+class Pessoa4:
+    def __init__(self, nome, sobrenome):
+        self.nome = nome
+        self.sobrenome = sobrenome
+
+    def imprimeNome(self):
+        print(self.nome, self.sobrenome)
+
+
+class Estudante4(Pessoa4):
+    def __init__(self, nome, sobrenome):
+        super().__init__(nome, sobrenome)
+
+
+p4 = Estudante4('Robert', 'C. Martin')
+p4.imprimeNome()
