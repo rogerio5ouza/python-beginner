@@ -132,3 +132,28 @@ class Estudante5(Pessoa5):
 
 p5 = Estudante5('Kent', 'Beck')
 print(p5.anoGraduacao)
+
+'''
+No exemplo abaixo o valor da propriedade'anoGraduacao' deve ser uma variável, passada para a classe 'Estudande6' ao criar objetos do 'Estudante6'.
+Para fazer isso, adicionamos o parâmetro na função __init__(). 
+'''
+# Exemplo:
+
+
+class Pessoa6:
+    def __init__(self, nome, sobrenome):
+        self.nome = nome
+        self.sobrenome = sobrenome
+
+    def imprimeNome(self):
+        print(self.nome, self.sobrenome)
+
+
+class Estudante6(Pessoa6):
+    def __init__(self, nome, sobrenome, ano):
+        super().__init__(nome, sobrenome)
+        self.anoGraduacao = ano
+
+
+p6 = Estudante6('Guido', 'Van Rossum', 2021)
+print(p6.anoGraduacao)
