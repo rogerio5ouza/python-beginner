@@ -157,3 +157,33 @@ class Estudante6(Pessoa6):
 
 p6 = Estudante6('Guido', 'Van Rossum', 2021)
 print(p6.anoGraduacao)
+
+'''
+Add Methods
+'''
+# Add um método 'Bem vindo' a classe 'Estudante7':
+
+
+class Pessoa7:
+    def __init__(self, nome, sobrenome):
+        self.nome = nome
+        self.sobrenome = sobrenome
+
+    def imprimeNome(self):
+        print(self.nome, self.sobrenome)
+
+
+class Estudante7(Pessoa7):
+    def __init__(self, nome, sobrenome, ano):
+        super().__init__(nome, sobrenome)
+        self.anoGraduacao = ano
+
+    def BemVindo(self):
+        print('Bem vindo', self.nome, self.sobrenome,
+              'ao ano de', self.anoGraduacao)
+
+
+p7 = Estudante7('Guido', 'Van', 2021)
+p7.BemVindo()
+
+# Obs: Se adicionarmos um método na classe Filha com o mesmo nome de um método da classe Pai, o método da classe Filha sobrescrevera o método da classe Pai.
