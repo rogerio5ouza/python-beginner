@@ -106,3 +106,29 @@ class Estudante4(Pessoa4):
 
 p4 = Estudante4('Robert', 'C. Martin')
 p4.imprimeNome()
+
+# Obs: Ao usarmos a super() function, não precisamos usar o nome do elemento Pai, ele herdará automaticamente os métodos e propriedades da classe Pai.
+
+'''
+Add Properties
+'''
+# Add uma propriedade 'anoGraduacao' à classe Estudante5:
+
+
+class Pessoa5:
+    def __init__(self, nome, sobrenome):
+        self.nome = nome
+        self.sobrenome = sobrenome
+
+    def imprimeNome(self):
+        print(self.nome, self.sobrenome)
+
+
+class Estudante5(Pessoa5):
+    def __init__(self, nome, sobrenome):
+        super().__init__(nome, sobrenome)
+        self.anoGraduacao = 2020
+
+
+p5 = Estudante5('Kent', 'Beck')
+print(p5.anoGraduacao)
