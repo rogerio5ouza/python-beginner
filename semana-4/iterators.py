@@ -55,3 +55,39 @@ for fruta in minha_string_fruta:
     print(fruta)
 
 # O laço For cria um objeto Iterador e executa o método next() para cada laço.
+
+'''
+Create an Iterator
+
+Para criar um objeto/classe como um Iterator, implementamos os métodos __iter__() e __next__() em seu objeto.
+
+Como vimos em Classes/Objetos do Python, todas as classes têm uma função chamada __init__(), que permite que façamos algumas inicializações quando
+o objeto está sendo criado.
+
+O método __iter__() atua de forma semelhante, podemos fazer operações (inicializaçõe, etc.), mas devemos sempre retornar o próprio objeto Iterador.
+
+O método __next__() também permite que façamos operações que deve retornar o próximo item na sequência.
+'''
+# Exemplo:
+# Cria um Iterador que retorne números, começando com 1, e cada sequência aumentará em um (retornando 1,2,3,4,5 e etc.):
+
+
+class meus_numeros:
+    def __iter__(self):
+        self.a = 1
+        return self
+
+    def __next__(self):
+        x = self.a
+        self.a += 1
+        return x
+
+
+minha_classe = meus_numeros()
+meu_iterator_3 = iter(minha_classe)
+
+print(next(meu_iterator_3))
+print(next(meu_iterator_3))
+print(next(meu_iterator_3))
+print(next(meu_iterator_3))
+print(next(meu_iterator_3))
