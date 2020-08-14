@@ -91,3 +91,37 @@ print(next(meu_iterator_3))
 print(next(meu_iterator_3))
 print(next(meu_iterator_3))
 print(next(meu_iterator_3))
+
+
+'''
+StopIteration
+
+O exemple acima continuaria para sempre se tivéssemos instruções next() suficientes ou se fosse usado em um loop For.
+
+Para evitar que a iteração continue indefinidamente, podemos usar a instrução StopIteration.
+
+No método __next__(), podemos adicionar uma  condição de término para gerar um erro se a iteração for feita um número específico de vezes.
+'''
+# Exemplo:
+# Pare após 20 iterações:
+
+
+class meus_numeros_2:
+    def __iter__(self):
+        self.a = 1
+        return self
+
+    def __next__(self):
+        if self.a <= 20:
+            x = self.a
+            self.a += 1
+            return x
+        else:
+            raise StopIteration
+
+
+minha_classe_2 = meus_numeros_2()
+meu_iterator_4 = iter(minha_classe_2)
+
+for x in meu_iterator_4:
+    print(x)
