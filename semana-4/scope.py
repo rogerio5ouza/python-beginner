@@ -36,3 +36,24 @@ def minha_funcao_2():
 
 
 minha_funcao_2()
+
+'''
+Global Scope
+
+Uma variável criada no corpo principal do código Python é uma variável global e pertence ao escopo global.
+
+Variáveis globais estão disponíveis em qualquer escopo, global e local.
+'''
+# Exemplo
+# Uma variável criada fora de uma função é global e pode ser usada por qualquer pessoa:
+
+x = 300
+
+
+def minha_funcao_3():
+    print(x)
+
+
+minha_funcao_3()
+
+print(x)
