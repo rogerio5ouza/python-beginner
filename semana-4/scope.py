@@ -57,3 +57,23 @@ def minha_funcao_3():
 minha_funcao_3()
 
 print(x)
+
+'''
+Naming Variables
+
+Se nós operarmos com o mesmo nome de variável dentro e fora de uma função, p Python as trarará como duas variáveis separadas,
+uma dispinível no escopo global (fora da função) e outra disponível no escopo local (dentro da função).
+'''
+# Exemplo
+# A função imprimirá o x local e,em seguida, o código imprimirá o x global:
+
+x = 200
+
+
+def minha_funcao_4():
+    x = 300
+    print(x)
+
+
+minha_funcao_4()
+print(x)
