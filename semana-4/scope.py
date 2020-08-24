@@ -77,3 +77,33 @@ def minha_funcao_4():
 
 minha_funcao_4()
 print(x)
+
+'''
+Global Keyword
+
+Se precisármos criar uma variável global mas, estivérmos presos no escopo local, podemos usar a Global Keyword.
+A Global Keyword torna a variável global.
+'''
+# Exemplo:
+
+def minha_funcao_5():
+    global x
+    x = 200
+    print(x)
+
+minha_funcao_5()
+
+print(x)
+
+# Além disso, usamos a Global Keyword se quisérmos fazer uma alteração em uma variável global dentro da função.
+# Exemplo:
+
+x = 400
+
+def minha_funcao_6():
+    global x
+    x = 500    
+
+minha_funcao_6()
+
+print(x)
