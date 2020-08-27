@@ -10,5 +10,3 @@ Um arquivo contendo um conjunto de funções que podemos incluir em nossos arqui
 
 def boas_vindas(name):
     print("Ola, " + name)
-
-boas_vindas('Rogerio')
