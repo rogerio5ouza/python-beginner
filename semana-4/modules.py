@@ -22,3 +22,12 @@ pessoa_1 = {
     "idade": 32,
     "cidade": "Brasilia"
 }
+
+'''
+Nomeando um Módulo
+
+Podemos nomear o arquivo do módulo como quisermos, mas deve ter a extensão de arquivo .py.
+
+Podemos criar um alias ao importar um módulo, usando a keyword as.
+'''
+# Exemplo:
