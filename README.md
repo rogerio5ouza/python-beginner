@@ -28,5 +28,6 @@
 * [Iterators](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-4)
 * [Scope](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-4)
 * [Modules](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-4)
+* [Dates](https://github.com/rogerio5ouza/python-beginner/tree/master/semana-4)
 
 _Fontes:_ python.org e w3schools.com (com adaptações).
