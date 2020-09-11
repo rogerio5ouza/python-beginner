@@ -45,3 +45,17 @@ print(data)
 A classe datetime() também usa parâmetros para hora e fuso horário(hora, minuto, segundo, microssegundo, tzone),
 mas eles são opcionais e possuem valor padrão de 0, (Nenhum para fuso horário).
 '''
+
+'''
+Método strftime()
+
+O objeto datetime possui um métdodo para formatar objetos de data em strings legíveis.
+
+O método é chamado strtime() e usa um parâmetro, formato, para especificar o foramato de string retornada.
+'''
+
+# Exemplo
+# Mostra o nome do mês:
+
+nome_mes = datetime.datetime(2020, 9, 1)
+print(nome_mes.strftime("%B"))
