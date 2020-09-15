@@ -12,3 +12,8 @@ maior_valor = max(2, 4, 6, 8, 10)
 
 print(menor_valor)
 print(maior_valor)
+
+# A função abs() retorna o valor absoluto (positivo) do número especificado:
+
+numero_aleatorio = abs(-8.25)
+print(numero_aleatorio)
