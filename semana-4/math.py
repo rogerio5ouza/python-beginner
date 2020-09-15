@@ -17,3 +17,10 @@ print(maior_valor)
 
 numero_aleatorio = abs(-8.25)
 print(numero_aleatorio)
+
+# A função pow(x, y) retorna o valor de x elevado à potência de y (xy)
+# Exemplo
+# Retorna o valor de 4 à potência de 3 (igual a 5 * 5 *):
+
+x = pow(5, 3)
+print(x)
