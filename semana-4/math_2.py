@@ -26,3 +26,9 @@ arredonda_pra_baixo = math.floor(1.4)
 
 print(arredonda_pra_cima)
 print(arredonda_pra_baixo)
+
+# A constante math.pi retorna o valor de PI(3,14...):
+
+numero_pi = math.pi
+
+print(numero_pi)
