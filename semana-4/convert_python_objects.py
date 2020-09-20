@@ -15,6 +15,7 @@ Podemos converter objetos de tipos em Python em Strings JSON:
 import json
 
 print(json.dumps({"nome": "Joao", "idade": 30}))
+print(json.dumps(["maca", "bananas"]))
 print(json.dumps(("maca", "bananas")))
 print(json.dumps("ola"))
 print(json.dumps(42))
